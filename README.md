@@ -1,3 +1,7 @@
 # OS_Summer
 
-记录rcore第一阶段
+## 2021-07-21
+
+* 成功配置了Rust的环境以及IDEA
+* Hello World！
+* 看了《Rust编程之道》的第三章（部分），今日实习有些繁忙
