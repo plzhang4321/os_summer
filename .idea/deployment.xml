@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="远程主机 (c0f060ac-73c9-4b59-a238-5b51cb94608e)" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="远程主机 (c0f060ac-73c9-4b59-a238-5b51cb94608e)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/zhangpeilai/os_summer" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
