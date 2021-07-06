@@ -6,7 +6,7 @@ enum Message {
     Quit,
     Echo(String),
     Move(Point),
-    ChangeColor((u32, u32, u32)),
+    ChangeColor((u8, u8, u8)),
 }
 
 struct Point {
@@ -37,7 +37,16 @@ impl State {
         self.position = p;
     }
 
-    fn process(&mut self, message: Message) {}
+    fn process(&mut self, message: Message) {
+        match message {
+            Message::Quit => { self.quit = true }
+            Message::ChangeColor((r, g, b)) => { self.color = (r, g, b) }
+            Message::Move(xy) => { self.position = xy }
+            _ => {
+                println!("hello")
+            }
+        }
+    }
 }
 
 #[cfg(test)]
