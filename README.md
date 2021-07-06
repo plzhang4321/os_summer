@@ -16,3 +16,8 @@
 
 * 配置了WSL和安装工具链（root）用户需要单独在ssh的config文件中配置为yes
 * 看了7讲Rust的网课
+
+## 2021-07-05
+
+* rustlings 做到了enums3
+* 看了4讲Rust的网课
