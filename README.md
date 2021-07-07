@@ -21,3 +21,11 @@
 
 * rustlings 做到了enums3
 * 看了4讲Rust的网课
+
+## 2021-07-06
+
+* rustlings 做到了generics1
+
+## 2021-07-07
+
+* rustlings 做到了tests
