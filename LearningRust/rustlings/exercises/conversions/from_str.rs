@@ -25,7 +25,23 @@ struct Person {
 
 impl FromStr for Person {
     type Err = Box<dyn error::Error>;
-    fn from_str(s: &str) -> Result<Person, Self::Err> {}
+    fn from_str(s: &str) -> Result<Person, Self::Err> {
+        if !s.contains(",") || s.len() == 0 {
+            return Err("Bad request".into());
+        }
+        let s = s.split(",").collect::<Vec<_>>();
+        if s[0] == "" || s.len() != 2 {
+            return Err("Bad request".into());
+        }
+        if let Ok(age) = s[1].parse::<usize>() {
+            return Ok(Person {
+                name: String::from(s[0]),
+                age: age,
+            });
+        } else {
+            return Err("Bad request".into());
+        }
+    }
 }
 
 fn main() {
