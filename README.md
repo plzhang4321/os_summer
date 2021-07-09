@@ -29,3 +29,7 @@
 ## 2021-07-07
 
 * rustlings 做到了tests
+
+## 2021-07-08
+
+* rustlings 做到了thread1
