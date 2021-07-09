@@ -33,3 +33,7 @@
 ## 2021-07-08
 
 * rustlings 做到了thread1
+
+## 2021-07-09
+
+* 完成rustlings
